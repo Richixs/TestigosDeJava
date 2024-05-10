@@ -6,18 +6,32 @@
 - Ricardo Ramirez Caero
 - Sebastian Barrera Vargas
 
-## 1. Flujos de trabajo - Inicio de proyecto grupal Git:
-
-### Ejercicio 1:
-
-> Define un flujo de trabajo básico para un proyecto grupal en Git. Especifica cómo se deben crear y gestionar las ramas, cómo se llevará a cabo la integración de cambios, y quién será responsable de realizar merges.
+## 1. Flujo de trabajo:
 
 #### GitHub Flow
 
 ![GitHubFlow:https://blog.programster.org/git-workflows](./imagenes/github-flow.png "GitHub Flow")
+
 > Programster's Blog: https://blog.programster.org/git-workflows
 
 Este flujo de trabajo es ideal para quienes buscan simplicidad e implementación frecuente, ya sea una corrección de errores o una característica, se realiza a través de una rama que se crea desde la rama principal. Una vez completado el trabajo en la rama, se revisa y prueba antes de fusionarlo con la rama principal mediante una "pull request".
 
-##### Creación y Gestion de Ramas
-##### Integración de cambios
+#### Creación de Ramas
+
+Crear ramas en un repositorio nos brinda un espacio separado para <u>trabajar sin afectar la rama principal</u>. Esto nos permite hacer commits de manera segura para respaldar nuestro trabajo en el repositorio remoto.
+
+Para crear una rama podemos usar los siguientes comandos:
+
+```bash
+git branch <"nombre-de-la-rama">
+```
+
+```bash
+git switch -c <"nombre-de-la-rama">
+```
+
+```bash
+git checkout -b <"nombre-de-la-rama">
+```
+
+Recuerda utilizar nombres de rama cortos y descriptivos. Esto permite que tus colaboradores puedan entender rápidamente el propósito de cada rama al ver el repositorio.

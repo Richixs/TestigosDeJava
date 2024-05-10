@@ -15,3 +15,9 @@
 #### GitHub Flow
 
 ![GitHubFlow:https://blog.programster.org/git-workflows](./imagenes/github-flow.png "GitHub Flow")
+> Programster's Blog: https://blog.programster.org/git-workflows
+
+Este flujo de trabajo es ideal para quienes buscan simplicidad e implementación frecuente, ya sea una corrección de errores o una característica, se realiza a través de una rama que se crea desde la rama principal. Una vez completado el trabajo en la rama, se revisa y prueba antes de fusionarlo con la rama principal mediante una "pull request".
+
+##### Creación y Gestion de Ramas
+##### Integración de cambios

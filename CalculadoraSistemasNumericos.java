@@ -1,4 +1,9 @@
 public class CalculadoraSistemasNumericos {
+    public String resta(String numeroA, String numeroB, int base) {
+        int resultadoDecimal = convertirSistemaNumericoDecimal(numeroB, base) - convertirSistemaNumericoDecimal(numeroB, base);
+        String resultado = convertirDecimalSistemaNumerico(resultadoDecimal, base);
+        return resultado;
+    }
     public int convertirSistemaNumericoDecimal(String numero, int base) {
         int numeroDecimal = Integer.parseInt(numero, base);
         return numeroDecimal;

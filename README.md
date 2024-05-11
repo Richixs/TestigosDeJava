@@ -38,3 +38,21 @@ Recuerda utilizar nombres de rama cortos y descriptivos. Esto permite que tus co
 
 #### Integración de Cambios
 Una vez que los cambios en una rama están completos y se han probado localmente, se envía una Pull Request desde esa rama a la rama principal. Nuestro repositorio está configurado para requerir que al menos un colaborador apruebe la solicitud antes de que pueda fusionarse con la rama principal. Además, se verifica que no haya pendientes asociados con la solicitud antes de proceder con la fusión.
+
+##  2. Buenas prácticas en Git:
+
+* Usar verbo en imperativo para los commits: Trata de no hablar en pasado, tipo no digas se añadio, se modifico. En cambio usa palabras como Añade, Modifica, etc.
+* Usa prefijos en los commits: 
+
+    * `feat:` Para nuevas caracteristicas.
+    * `fix:` Arregla un bug.
+    * `perf:` Cambios que mejoran el rendimiento.
+    * `build:` Cambios en el sistema de build, tareas de despliegue o instalacion.
+    * `ci:` Cambios para la integracion continua.
+    * `docs:` Cambios para la documentacion.
+    * `refactor:` Refactorización del codigo, lo usaremos para arreglar "bad smells" o malas practicas.
+    * `style:` Cambios en el formato.
+    * `test:` Añade tests o modifica los que hay.
+*  Se debe sincronizar los cambios con el repositorio remoto de manera continua debido a que esto garantiza que tu trabajo estara respaldado y seguro. 
+* Crear nombres de ramas que especifiquen que hacen por ejemplo `feature/ordenamiento`.
+* Usar como maximo 50 caracteres para el mensaje de commit.

@@ -56,3 +56,32 @@ Una vez que los cambios en una rama están completos y se han probado localmente
 *  Se debe sincronizar los cambios con el repositorio remoto de manera continua debido a que esto garantiza que tu trabajo estara respaldado y seguro. 
 * Crear nombres de ramas que especifiquen que hacen por ejemplo `feature/ordenamiento`.
 * Usar como maximo 50 caracteres para el mensaje de commit.
+
+## Git Hooks/Git Actions que usamos como equipo.
+En este trabajo usamos 2 hooks entre los cuales 1 es de servidor y 1 era local, a continuacion mostraremos un poco de que iban:
+
+### Hook Local
+
+Este hook lo que hace es evitar que hagamos commits sin un prefijo aunque se llego a implementar un poco tarde en el desarrollo.
+
+```bash
+#!/bin/sh
+
+# Captura el mensaje del commit
+commit_message=$(cat "$1")
+
+# Define los prefijos que deseas que tenga cada commit
+prefixes=("feat:" "docs:" "fix:" "style:" "chore:" "perf:" "build:" "ci:" "refactor:" "test:")
+
+# Verifica si el mensaje del commit comienza con alguno de los prefijos
+for prefix in "${prefixes[@]}"; do
+  if [[ $commit_message == $prefix* ]]; then
+    # Si el mensaje del commit comienza con alguno de los prefijos, permite que el commit continúe
+    exit 0
+  fi
+done
+
+# Si el mensaje del commit no comienza con ninguno de los prefijos, muestra un error y evita que se realice el commit
+echo "ERROR: El mensaje del commit debe comenzar con uno de los siguientes prefijos: ${prefixes[*]}"
+exit 1
+```

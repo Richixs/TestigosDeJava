@@ -85,3 +85,9 @@ done
 echo "ERROR: El mensaje del commit debe comenzar con uno de los siguientes prefijos: ${prefixes[*]}"
 exit 1
 ```
+
+### Hook Remoto
+
+El Hook remoto que usamos sirve para autoasignar etiquetas a nuestros Pull Requests, es parte de la función Git Hub Actions de Git Hub. Eh aqui la imagen de su icono:
+
+(agregar imagen Hook Remoto)

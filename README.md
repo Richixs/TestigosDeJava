@@ -57,6 +57,10 @@ Una vez que los cambios en una rama están completos y se han probado localmente
 * Crear nombres de ramas que especifiquen que hacen por ejemplo `feature/ordenamiento`.
 * Usar como maximo 50 caracteres para el mensaje de commit.
 
+## 3. Bitacora
+
+Nuestro equipo logró desarrollar una calculadora en Java capaz de funcionar con cualquier sistema numérico. Este proyecto fue llevado a cabo utilizando el GitFlow de GitHub, lo que nos permitió implementar cambios de manera efectiva en la rama principal del repositorio. Aunque no estuvo exento de desafíos, como era de esperar en un proyecto colaborativo, nos enfrentamos a algunos conflictos durante el proceso. En particular, surgieron discrepancias cuando dos miembros del equipo, Ricardo y Sebas, trabajaban simultáneamente en una clase, cada uno en un método diferente. Sin embargo, gracias a una comunicación abierta y a una rápida resolución.
+
 ## Git Hooks/Git Actions que usamos como equipo.
 En este trabajo usamos 2 hooks entre los cuales 1 es de servidor y 1 era local, a continuacion mostraremos un poco de que iban:
 

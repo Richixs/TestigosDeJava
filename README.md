@@ -94,7 +94,9 @@ exit 1
 
 El Hook remoto que usamos sirve para autoasignar etiquetas a nuestros Pull Requests, es parte de la función Git Hub Actions de Git Hub. Eh aqui la imagen de su icono:
 
-(agregar imagen Hook Remoto)
+<p align="center">
+  <img src="https://github.com/Richixs/TestigosDeJava/blob/main/imagenes/GitHubAction1.png" alt="Imagen Hook Remoto" width="500">
+</p>
 
 ## Buenas y malas practicas de los integrantes
 

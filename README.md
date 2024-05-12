@@ -107,3 +107,13 @@ Entre las buenas practicas que pude ver en Ricardo es el uso de prefijos para lo
 * #### Malas practicas
 
 Note una mala practica en Ricardo y es que hizo algunos commits con ramas sin prefijos y en algunas no se escribio una forma de describir el proposito de la rama.
+
+### 2. Ricardo evaluara a Nestor
+
+* #### Buenas practicas
+
+En cuanto a las buenas prácticas, Nestor ha demostrado entendimiento de las metodologías de desarrollo y ha seguido consistentemente las prácticas recomendadas. Ha mantenido un nivel de calidad en su trabajo.
+
+* #### Malas practicas
+
+ En términos de áreas de mejora, Nestor necesita enfocarse en revisar las solicitudes de extracción (PR).

@@ -95,3 +95,15 @@ exit 1
 El Hook remoto que usamos sirve para autoasignar etiquetas a nuestros Pull Requests, es parte de la función Git Hub Actions de Git Hub. Eh aqui la imagen de su icono:
 
 (agregar imagen Hook Remoto)
+
+## Buenas y malas practicas de los integrantes
+
+### 1. Sebastian evaluara a Ricardo
+
+* #### Buenas practicas
+
+Entre las buenas practicas que pude ver en Ricardo es el uso de prefijos para los commits y el respeto al flujo de trabajo que usamos, tambien me parecio que hubo muy buena comunicación a la hora de trabajar. Me parecio que la frecuencia de sus commits fue la adecuada.
+
+* #### Malas practicas
+
+Note una mala practica en Ricardo y es que hizo algunos commits con ramas sin prefijos y en algunas no se escribio una forma de describir el proposito de la rama.

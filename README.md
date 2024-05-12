@@ -119,3 +119,13 @@ En cuanto a las buenas prácticas, Nestor ha demostrado entendimiento de las met
 * #### Malas practicas
 
  En términos de áreas de mejora, Nestor necesita enfocarse en revisar las solicitudes de extracción (PR).
+
+ ### 3. Nestor evaluara a Sebas
+
+* #### Buenas practicas
+
+En lo que respecta a las buenas prácticas, Sebas se ha destacado con la calidad del trabajo y el cumplimiento de los estándares establecidos. Ha sido consistente en seguir las mejores prácticas de desarrollo, incluido el uso de prefijos para los commits y el respeto al flujo de trabajo del equipo.
+
+* #### Malas practicas
+
+ Sebas cometió un error al utilizar una rama antigua en un momento determinado. Aunque este incidente no tuvo repercusiones graves.
